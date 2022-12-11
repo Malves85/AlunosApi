@@ -1,0 +1,47 @@
+.aluno-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10 15px;
+  margin: 30px auto;
+}
+
+.aluno-container header{
+  display: flex;
+  align-items: center;
+}
+
+.aluno-container header img{
+  height: 50px;
+}
+
+.aluno-container header button{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #DCDCE6;
+  background: green;
+  margin-left: 16px;
+  transition: border-color 0.5s;
+}
+
+.aluno-container header button:hover{
+  border-color: #371465;
+}
+
+table, th, td {
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 25px;
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
